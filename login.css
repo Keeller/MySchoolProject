@@ -1,0 +1,333 @@
+
+#block1 {
+margin-top:20%;
+margin-left:45%;
+margin-right:30%
+
+
+
+
+
+}
+
+
+
+.Form{
+  
+
+padding-top:20px;
+	width:220px
+
+font-family:'Times New Roman';
+font-size: 107%;
+
+
+
+
+
+}
+
+.Enter{
+cursor: pointer;
+
+background-image:url(/enter.png); 
+    
+    padding-top:39px;
+	width:220px;
+
+border-radius: 10px;
+
+}
+
+.Enter:hover{
+
+background-image:url(/enter_over.png); 
+
+
+border-radius: 10px;
+
+}
+
+.Reg{
+
+cursor: pointer;
+
+background-image:url(/regist.png); 
+    
+    padding-top:39px;
+	width:220px;
+
+
+border-radius: 10px;
+
+
+
+}
+
+
+.Reg:hover{
+
+background-image:url(/regist_over.png); 
+
+
+
+border-radius: 10px;
+
+
+}
+
+#form{
+margin: 0 20px;
+  padding: 10px 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #aeaeae;
+}
+
+
+.container {
+  width: 1000px;
+  margin: 0 auto 15px auto;
+  padding: 0 0 400px 0;
+  box-shadow: 0 0 10px #aeaeae;
+  background-color: #FFFAFA;
+
+}
+.exit{
+cursor: pointer;
+ padding-top:20px;
+	width:210px;
+
+background-image:url(/vihod.png);
+
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+-o-transform: rotate(-90deg); 
+
+border-radius: 10px;
+
+}
+
+
+
+.exit:hover {
+ padding-top:20px;
+	width:210px;
+
+cursor: pointer;
+
+background-image:url(/vihod_hover.png);
+
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+-o-transform: rotate(-90deg); 
+
+
+border-radius: 10px;
+
+}
+
+.exit:active{
+
+padding-top:20px;
+	width:210px;
+
+cursor: pointer;
+
+background-image:url(/vihod_active.png);
+
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+-o-transform: rotate(-90deg);
+
+
+border-radius: 10px;
+
+
+}
+
+
+
+#layer{
+
+background:#FFFFFF;
+
+}
+
+#layer2{
+
+background:##D3D3D3;
+
+
+}
+
+#layer  { z-index: 2; }
+#layer2 { z-index: 1; }
+
+
+
+
+
+
+
+	
+#s_panel {
+	position: fixed;
+	top: 153px;
+	left: -100px;
+	background: #ff7700;
+	width: 100px;
+	height: 150px;
+	padding: 100px 0 0 0;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;
+	}
+
+#button:hover #s_panel {
+	left: 0;
+}
+
+
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+}
+th, td:first-child {
+background: #AFCDE7;
+color: white;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 1px 1px 1px 1px;
+border-color: white;
+}
+td {
+background: #D8E6F3;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+
+
+#accept{
+
+
+color: #800000;
+
+
+
+}
+
+
+#accept:visited{
+
+color: #808000;
+
+
+}
+
+.format{
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+
+
+
+
+}
+
+.popup-checkbox, .popup {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.popup:before {
+  display: block;
+  content: ' ';
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .5;
+}
+
+.popup-content {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.popup-shower {
+  color: #00f;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.popup-shower:hover {
+  color: #00a;
+  text-decoration: underline;
+}
+
+.popup-closer {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #999;
+  font-size: 20px;
+  border: 1px solid #999;
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.popup-closer:hover {
+  background-color: #eee;
+}
+
+
+.popup-checkbox:checked + .popup {
+  opacity: 1;
+  display: block;
+}
+
+
+
